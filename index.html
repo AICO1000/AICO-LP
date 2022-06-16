@@ -5,40 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./amlcss/aml.css" />
-    <title>Arkardia</title>
+    <title>Arkardia || Staff </title>
+    <script src="./ak.js" defer></script>
   </head>
-  <body background="./Glossy Logo Mockup_ (1).jpg">
-    <div class="container">
-      <h2>Authentication Required</h2>
-      <select required>
-        <option value="Choose">Choose</option>
-        <option value="Staff">Staff</option>
-        <option value="Guest">Guest</option>
-      </select>
-      <div>
-        <label for="Login_id">Login_id</label>
-        <input
-          type="text"
-          name="Login_id"
-          id="name"
-          class="Login_id"
-          required
-        />
+  <form class="container">
+    <body background="./AK mockup (1).jpg">
+      <div class="div">
+        <h2>Authentication Required</h2>
+        <select required>
+          
+          <option value="Staff">Staff</option>
+          <option value="Guest">Guest</option>
+        </select>
+        <div>
+          <label for="Login_id" class="label">Login_id</label>
+          <input
+            type="email"
+            name="Login_id"
+            id="name"
+            class="Login_id"
+            placeholder="firstname.lastname"
+            required
+          />
+        </div>
+        <div>
+          <label for="Password">Password</label>
+          <input
+            type="password"
+            name="Password"
+            id="name"
+            class="Password"
+placeholder="password"
+            required
+          />
+          <button>Submit</button>
+        </div>
+        <div>
+          <a href="https://google.com" target="_blank">Forget Password</a>
+        </div>
       </div>
-      <div>
-        <label for="Password">Password</label>
-        <input
-          type="text"
-          name="Password"
-          id="name"
-          class="Password"
-          required
-        />
-        <button>Submit</button>
-      </div>
-      <div>
-        <a href="https://google.com" alt="_blank">Forget Password</a>
-      </div>
-    </div>
-  </body>
+    </body>
+  </form>
 </html>
+</script>
